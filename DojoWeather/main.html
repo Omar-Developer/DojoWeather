@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+    
+
+<div class="navbar">
+  <ul>
+    <li>DojoWeather</li>
+    <li onclick="alert('Loading weather report....')">Burbank</li>
+    <li onclick="alert('Loading weather report....')">Chicago</li>
+    <li onclick="alert('Loading weather report....')">Dallas</li>
+  </ul>
+  </div>
+
+  <div class="body">
+
+  <div class="head">
+    <h2>San Jose</h2>
+    <div class="temperature">
+      <p>show temperature in</p>
+      <select id="temperature" onchange="change_temperature()">
+        <option value="C">°C</option>
+        <option value="F">°F</option>
+      </select>
+    </div>
+  
+  </div>
+  <hr>  
+  
+
+  <div class="days">
+ <ul>
+   <li><h2>Today</h2><img src="./assets/some_rain.png" alt="">
+    <p>some rain</p>
+    <div class="temp"><p><span>24</span>°</p><p><span>18</span>°</p></div></li>
+    
+   <li><h2>Tomorrow</h2><img src="./assets/some_sun.png" alt="">
+    <p>some sun</p>
+    <div class="temp"><p><span>27</span>°</p><p><span>19</span>°</p></div></li>
+
+   <li><h2>Friday</h2><img src="./assets/some_clouds.png" alt="">
+    <p>some clouds</p>
+    <div class="temp"><p><span>21</span>°</p><p><span>16</span>°</p></div></li>
+
+   <li><h2>Saturday</h2><img src="./assets/some_sun.png" alt="">
+    <p>some sun</p>
+    <div class="temp"><p><span>26</span>°</p><p><span>21</span>°</p></div></li>
+   </ul>
+
+</div>
+
+
+
+<div class="container-cookie">
+  <img src="./assets/cookie.png" alt="">
+  <div class="text">
+  <h3>Stop! Cookie time</h3>
+  <p>We use cookies (sadly not the edible ones) to personalize content and ads,to provide social media features and to analyse our traffic.<a href="#">Read more...</a></p>
+
+  </div>
+  <button onclick="cookies_disappear()">I Accept</button>
+</div>
+
+</div>
+
+<script src="./js_file.js"></script>
+
+</body>
+</html>

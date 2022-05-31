@@ -1,0 +1,167 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+  padding-left: 10%;
+  padding-right: 140px;
+  height: 100vh;
+}
+ .navbar{
+   background-color:rgb(0, 132, 255);
+   opacity: 0.5;
+   padding-top: 15px;
+   position: relative;
+   padding-left: 10%;
+   padding-right: 140px;
+ }
+.navbar ul {
+  position: relative;
+  left: -40px;
+  width: 100%;
+  height: 40px;
+ 
+}
+
+.navbar ul li:first-child {
+  font-size: 34px;
+  margin-right: 50px;
+  font-weight: 700;
+}
+
+.navbar ul li{
+  display: inline-block;
+  color: white;
+  margin-top: -40px;
+}
+.navbar ul li:not(.navbar ul li:first-child) {
+  margin-left: 90px;
+  font-size: 20px;
+}
+ hr{
+  height: 2px;
+  border-radius: 10px;
+  background-color: black;
+  position: relative;
+  top: 65px;
+   }
+
+
+
+   .head{
+     width: 100%;
+     position: relative;
+   }
+   .head h2{
+    position: absolute;
+    left: 0;
+  }
+  .head .temperature{
+    position: absolute;
+    right: 0;
+    display: flex; 
+  }
+
+  .head .temperature p{
+  margin-top: 30px;
+  }
+
+
+  .head .temperature select{
+   width: 60px;
+   height: 35px;
+   margin-left: 15px;
+   margin-top: 20px;
+   border: 3px solid black;
+  } 
+
+
+
+   .days{
+    position: relative;  
+    width: 100;
+    height: 350px;
+    top: 100px;
+  }
+  
+  .days ul{
+    position: absolute;
+    top: 0;
+  }
+  
+  .days ul li{
+    display: inline-block;
+    width: 180px;
+    height: 320px;
+    background-color:#E7E9EB;
+    text-align: center;
+  }
+
+  .days ul li:first-child{
+margin-left: 38px;
+  }
+  .days ul li:not(.days ul li:first-child) {
+    margin-left: 70px;
+  }
+ 
+  .days ul li .temp{
+    display: flex;
+    position: absolute;
+   font-size: 20px;
+  }
+  .days ul li .temp p:first-child{
+    margin-right: 70px;
+    margin-left: 30px;
+    color: red;
+    font-weight: 600;
+  }
+  .days ul li .temp p:not(.days ul li .temp p:first-child) {
+  color: blue;
+  font-weight: 600;
+
+  }
+  .days ul li img{
+    border-radius: 50%;
+    width: 140px;
+    background-color: black;
+    
+    
+  }
+
+
+
+  .container-cookie{
+    position: fixed;
+    bottom: 0;
+    width: 1025px;
+    height: 110px;
+    padding-left: 30px;
+    background-color: #E7E9EB;
+    border: 2px solid black;
+    display: flex;
+  }
+  .container-cookie .text{
+     text-align: left;
+  
+  }
+  .container-cookie .text h3{
+   margin-left: 10px;
+   margin-bottom: -15px; 
+ }
+  
+  .container-cookie img{
+    height: 64px;
+    margin-top: 20px;
+  }
+  .container-cookie p{
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+  .container-cookie button{
+    height: 40px;
+    width: 75px;
+    margin-top: 30px;
+    margin-right: 15px;
+    background-color:rgb(0, 132, 255);
+    opacity: 0.8;
+    color: white;
+   }
